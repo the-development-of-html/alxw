@@ -1,1 +1,7 @@
-测试文件a
+git指令的一些重点操作，首先时要初始化git
+1.git init -b alxw 初始化git并且创造一个alxw分支
+2.git config --global user.name/user.email 设置自己的仓库名和仓库邮箱
+3.git add . 将文件添加到缓存区中
+3.git commit -m '添加时候的标签'  将文件提交到本地仓库并且添加信息 
+4.git push 将文件提交到远程般的版本库中
+5.本地仓库与远程版本库进行绑定
