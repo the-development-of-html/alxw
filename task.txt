@@ -1,0 +1,17 @@
+1. refresh_priority 枚举值可能不一样；  // 枚举值不同，已经在contant中添加PriorityStatusRct并且和Ict做区分
+2. 准出接口(updateTask)  //接口可以复用，已解决
+4. Report 逻辑，拆出来两个；   
+
+> 
+    . git常见命令，提交，分支，push, pull;
+本地创建分支并切换：git checkout -b 分支名
+查看本地分支 git branch
+查看与本地关联的远端仓库：git remote 
+本地分支与远程分支关联 git branch --set-upstream-to=origin/remote_branch  your_branch
+恢复到上次提交：git stash
+将本地分支推送到远程分支 
+远程仓库拉分支：
+
+需要改进的地方:
+1.代码的格式问题
+2.git指令在学习学习
