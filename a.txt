@@ -8,5 +8,5 @@ git指令的一些重点操作，首先时要初始化git
 6.git push -u origin alxw 将本地alxw分支发送到远程的仓库的origin仓库中去
 7.在远程仓库拉取一个分支 
 8.git branch -m oldname newname 修改本地的分支名称
-9.git remote show origin  查看远程分支的具体信
+9.git remote show origin  查看远程仓库的分支的具体信息
 10.修改远程的仓库名
