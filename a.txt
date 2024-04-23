@@ -7,3 +7,7 @@ git指令的一些重点操作，首先时要初始化git
 5.git remote add origin http://github.com/the-development-of-html/alxw.git 本地仓库与远程版本库进行绑定
 6.git push -u origin alxw 将本地alxw分支发送到远程的仓库的origin仓库中去
 7.在远程仓库拉取一个分支 
+7.在远程仓库拉取一个分支 
+8.git branch -m oldname newname 修改本地的分支名称
+9.git remote show origin  查看远程仓库的分支的具体信息
+10.修改远程的仓库名
