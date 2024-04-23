@@ -26,3 +26,5 @@ git指令的一些重点操作，首先时要初始化git
 23.git stash 如果当前的项目文件不能commit，但是需要切换到其他分支来修改问题
 git stash-- 暂时隐藏当前的工作区 / git stash list 查看stash的记录
 git satsh apply @stash@{0} 回到某一次stash / git stash pop 回到上一次stash 并且删除记录q
+24.git cherry-pick 将修改bug的操作和进来，因为master上的bug当前的分支也有
+// 我们在这里修改了一个bug
