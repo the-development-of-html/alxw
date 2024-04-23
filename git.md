@@ -19,3 +19,6 @@ git指令的一些重点操作，首先时要初始化git
 17.git remote rm <仓库名称>  如果远程仓库的名称或者地址出现错误，那么进行修改
 // 注意事项：如果使用ssh协议进行clone或者push的时候，可能会需要验证服务器的key值，输入yes
 18.git merge <分支名>  将目标分支合并到当前分支上
+19.git push <仓库名> <本地分支>:<远程分支>   git push origin master:dev 将本地的master分支推送到origin仓库的dev分支,如果远程分支不存在的话就创建一个分支
+20.git push origin --delete <远程仓库分支>  
+21.git branch -d <分支> 删除本地分支
