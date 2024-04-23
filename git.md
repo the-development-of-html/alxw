@@ -22,9 +22,12 @@ git指令的一些重点操作，首先时要初始化git
 19.git push <仓库名> <本地分支>:<远程分支>   git push origin master:dev 将本地的master分支推送到origin仓库的dev分支,如果远程分支不存在的话就创建一个分支
 20.git push origin --delete <远程仓库分支>  
 21.git branch -d <分支> 删除本地分支
+<<<<<<< HEAD
 22.git log --graph --pretty=oneline --abbrev-commit   查看分支历史，查看分支的图
 23.git stash 如果当前的项目文件不能commit，但是需要切换到其他分支来修改问题
 git stash-- 暂时隐藏当前的工作区 / git stash list 查看stash的记录
 git satsh apply @stash@{0} 回到某一次stash / git stash pop 回到上一次stash 并且删除记录q
 24.git cherry-pick 将修改bug的操作和进来，因为master上的bug当前的分支也有
+=======
+>>>>>>> a2faea7718cd28a407f2b2a5bebd1f85566430f1
 // 我们在这里修改了一个bug
