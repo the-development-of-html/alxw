@@ -14,6 +14,6 @@ git指令的一些重点操作，首先时要初始化git
 12.git log 查看工作日志，也就是可以查看git的commit情况,同时可以拿到commit id， 方便在不同的版本之间回退处理
 13.git reset --hard <id> 回到某一个特定的版本
 14.git reflog 可以总结的展示当前仓库的提交信息
-15.git checkout --<文件名> 将文件修改到刚提交的时候
-
+15.git checkout --<文件名> 将文件修改到刚提交的时候,可以直接放弃掉工作区的修改
+16.git reset HEAD <file> 即使不小心将文件放去暂缓区了之后也可以恢复
 16.测试一下git checkout 是否撤销操作
