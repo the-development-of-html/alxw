@@ -28,5 +28,6 @@ git stash-- 暂时隐藏当前的工作区 / git stash list 查看stash的记录
 git satsh apply @stash@{0} 回到某一次stash / git stash pop 回到上一次stash 并且删除记录q
 24.git cherry-pick 将修改bug的操作和进来，因为master上的bug当前的分支也有
 25.git fetch origin <远程分支> -> git checkout -b <本地新建分支名> origin/<远程分支>  拉取远程分支并且创建一个新的本地分支
-// 我们在这里修改了一个bug
-// 这里有一个新的bug，但是我们现在已经把他修改好了
+
+
+// 重温一下修改bug的操作，修改bug很简单吧，这一会就修好了
