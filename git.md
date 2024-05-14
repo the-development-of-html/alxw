@@ -29,14 +29,10 @@ git satsh apply @stash@{0} 回到某一次stash / git stash pop 回到上一次s
 24.git cherry-pick 将修改bug的操作和进来，因为master上的bug当前的分支也有
 25.git fetch origin <远程分支> -> git checkout -b <本地新建分支名> origin/<远程分支>  拉取远程分支并且创建一个新的本地分支
 
-
-// 重温一下修改bug的操作，修改bug很简单吧，这一会就修好了
-
-// 刚刚测试了正在开发过程中，之前的某些功能存在bug，要停下当前的开发去修改一下之前的bug
 // 做法一：如果当前的功能还未进行commit的话，先将当前的修改及逆行保存。git stash save "保存的原因"
 // 然后去切换一个新的分支 git checkout -b <新的本地分支>， 然后对bug进行修改之后提交新的一个远程分支，然后进行pr操作修改bug
 // 切换成正在开发的分支之后可以把修改的bug同步过来，然后使用git stash pop 恢复之前的工作项
+// 重温一下修改bug的操作，修改bug很简单吧，这一会就修好了
 
-// 现在测试另外一个操作，先把当前的修改进行提交了，即使当前仅仅开发了一半，测试一下如何和并请求
-
-// 这回测试的使用commit方法进行修改bug操作，同样，bug一会就修复好了。
+// 做法二：先将修改进行提交和缓存，git add. -> git commit -> git checkout -b <新分支> 
+// bug修复完成之后，切换回当前的分支，然后后将修改拉取进来之后，取消最后commit即可
