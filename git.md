@@ -31,3 +31,5 @@ git satsh apply @stash@{0} 回到某一次stash / git stash pop 回到上一次s
 
 
 // 重温一下修改bug的操作，修改bug很简单吧，这一会就修好了
+
+// 这回测试的使用commit方法进行修改bug操作，同样，bug一会就修复好了。
